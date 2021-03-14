@@ -1,6 +1,13 @@
 *{box-sizing: border-box;}
 body {
-    max-width: 1200px;
+    overflow-x: hidden;
+    box-sizing: border-box;  
+    width: 100%;
+margin: 0;
+padding: 0;
+}
+main {
+    max-width: 100%;
 }
 header {
     margin: 32px 12px; 
@@ -14,6 +21,9 @@ header #gray {
 }
 .nav_section {
     float: right;
+}
+.for_mobile {
+    display: none;
 }
 .nav_section ul li {
     display: inline;
@@ -113,8 +123,11 @@ header #gray {
     margin: 5px;
     background-color: #d8d8d8;
 }
-.article_img {
+.article_img_desktop {
     margin: 16px;
+}
+.article_img_mobile {
+    display: none;
 }
 .info {
     width: 65%;
@@ -258,4 +271,123 @@ header #gray {
      color: #4a4a4a;
      padding: 10px;
 
+ }
+ @media only screen and (max-width: 600px) {
+     header {
+         max-width: 100%;
+         margin: 0;
+     }
+     .nav_section {
+        display: block;
+        float: none;
+     }
+     .logo {
+         display: none;
+     }
+     .for_mobile {
+         display: flex;
+         justify-content: center;
+     }
+
+     .for_desktop {
+         display: none;
+     }
+     .banner_section {
+        max-width: 100%;
+        display: block;
+        padding-bottom: 20px;
+     }
+     .banner_section #banner {
+         max-width: 100%;
+         margin: auto;
+     }
+     .right_section #bunner_button {
+         margin-top: 12px;
+         margin-bottom: 24px;
+     }
+     .banner_section h2 {
+        font-size: 36px;
+     }
+     .articles_section {
+         display: block;
+     }
+     .featured_article {
+         display: none;
+     }
+     .other_articles {
+         display: block;
+         width: 100%;
+         margin: 0 auto;
+     }
+     .other_articles img {
+         width: 100%;
+     }
+     .info {
+         display: block;
+         width: 100%;
+     }
+     .article_one,
+     .article_two,
+     .article_three {
+         display: block;
+         padding: 16px;
+        margin: 0;
+     }
+     .article_three {
+         background-color: inherit;
+     }
+     .article_img_mobile {
+         display: block;
+     }
+     .article_img_desktop {
+         display: none;
+     }
+     .learning_section {
+         background-color: #f3f5f5;
+     }
+     .learning_section_grid img {
+         display: none;
+     }
+     .learning_section_grid p {
+        display: none;
+     }
+     .learning_section_grid h4 {
+        display: none;
+
+     }
+     .learning_section_grid {
+         display: block;
+         padding-left: 16px;
+         padding-right: 16px;
+     }
+     .lesson {
+         padding-top: 14px;
+         padding-bottom: 12px;
+         margin: 8px;
+     }
+     .exhibit_section_grid {
+         display: block;
+     }
+     .video {
+         display: block;
+         max-width: 100%;
+     }
+     .video h3 {
+        display: none;
+     }
+     .video-p {
+         display: none;
+     }
+     .other_staff {
+         display: none;
+     }
+     .exhibit_section_grid video {
+         padding-left: 0;
+     }
+     footer span {
+         font-size: 16px;
+     }
+     .footer_nav {
+         display: none;
+     }
  }
