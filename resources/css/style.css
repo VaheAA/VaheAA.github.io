@@ -15,9 +15,10 @@ header {
 header .logo {
     text-transform: uppercase;
     font-size: 26px;
+    color: #284B63;
 }
 header #gray {
-    color: gray;
+    color: rgb(60, 110, 113, 0.5);
 }
 .nav_section {
     float: right;
@@ -32,14 +33,14 @@ header #gray {
 }
 .nav_section a {
     text-decoration: none;
-    color: #4a4a4a;
+    color: #284B63;
 }
 .banner_section {
     max-width: 100%;
     display: grid;
     grid-template-columns: 60% 40%;
     grid-gap: 24px;
-    background-color: #d8d8d8;
+    background-color: #353535;
 }
 .banner_section #banner {
     margin-top: 32px;
@@ -51,10 +52,11 @@ header #gray {
     align-self: center;
     margin-left: 24px;
     width: 80%;
+
 }
 .right_section #bunner_button {
-    background-color: #4a4a4a;
-    color: white;
+    background-color: #3C6E71;
+    color: #D9D9D9;
     padding: 12px;
     display: inline-block;
     text-decoration: none;
@@ -64,18 +66,18 @@ header #gray {
 }
 .right_section h2 {
     font-size: 42px;
- color: #4a4a4a;
+    color: #D9D9D9;
 }
 .right_section p {
     font-size: 22px;
-    color: #4a4a4a;
+    color: #D9D9D9;
 }
 .articles_section {
     max-width: 100%;
     display: grid;
     grid-template-columns: 60% 40%;
     grid-gap: 24px;
-    background-color: #f3f5f5;
+    background-color: #D9D9D9;
 }
 .featured_article img {
     margin-top: 32px;
@@ -85,17 +87,17 @@ header #gray {
 .featured_article h2 {
     font-size: 40px;
     margin-left: 24px;
-    color: #4a4a4a;
+    color: #353535;
 }
 .featured_article p {
     font-size: 18px;
     margin-left: 24px;
-    color: #4a4a4a;
+    color: #353535;
 }
 .featured_article #credits {
     font-size: 14px;
     margin-left: 24px;
-    color: #4a4a4a;
+    color: #353535;
 }
 .other_articles {
     margin-top: 12px;
@@ -121,7 +123,7 @@ header #gray {
 .article_three {
     display: flex;
     margin: 5px;
-    background-color: #d8d8d8;
+    background-color: #353535;
 }
 .article_img_desktop {
     margin: 16px;
@@ -137,22 +139,28 @@ header #gray {
     justify-content: center;
 }
 .info h3 {
-    color: #4a4a4a;
+    color: #353535;
     margin-top: 8px;
     margin-bottom: 8px;
 }
 .info p {
-    color: #4a4a4a;
+    color: #353535;
     margin-top: 8px;
     margin-bottom: 8px;
     width: 85%;
 }
 .info a {
     text-decoration: none;
-    color: #4a90e2;
+    color: #284B63;
+}
+.article_three h3, p {
+    color: #D9D9D9;
+}
+.article_three p {
+    color: #D9D9D9;
 }
 .learning_section {
-    background-color: #eaebec;
+    background-color: #D9D9D9;
 }
 .learning_section_grid {
     width: 100%;
@@ -169,7 +177,7 @@ header #gray {
     padding-top: 32px;
 }
 .lesson {    
-    background-color: white;
+    background-color: #3C6E71;
 }
 .lesson img {
     width: 100%;
@@ -182,29 +190,30 @@ header #gray {
 .course_info h3, h4, p {
     margin-top: 8px;
     margin-bottom: 8px;
+    color: #D9D9D9;
 
 }
 .course_info h3 {
-    color: #4a4a4a;
+    color: #FFFFFF;
 }
 .course_info p {
     padding-bottom: 12px;
     line-height: 1.5;
     width: 75%;
-    color: #a7a7a7;
+    color: #D9D9D9;
 }
 .course_info h4 {
     text-transform: uppercase;
     font-weight: normal;
-    color: #a7a7a7;
+    color: #D9D9D9;
 }
 .exhibit_section {
-    background-color: #f3f5f5;
+    background-color: #D9D9D9;
 }
 .exhibit_section h2 {
     margin: 0;
     text-align: center;
-    color: #4a4a4a;
+    color: #353535;
     font-size: 40px;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -235,7 +244,7 @@ header #gray {
 .info h4 {
     width: 95%;
     font-size: 22px;
-    color: #4a4a4a;
+    color: #353535;
     margin-top: 8px;
     margin-bottom: 8px;
 }
@@ -244,22 +253,22 @@ header #gray {
 }
 .video > h3   {
     padding-left: 24px;
-    color: #4a4a4a;
+    color: #353535;
     font-weight: 700;
  } 
  .video-p {
     padding-left: 24px;
-    color: #4a4a4a;;
+    color: #353535;
     font-weight: 500;
  }
  footer {
     border-top: 1px solid  rgb(167,167,167,0.2);
     padding: 32px 12px; 
-    background-color: #f3f5f5;
+    background-color: #353535;
  }
  footer span {
      padding-left: 12px;
-     color: #4a4a4a;;
+     color: #D9D9D9;
 
  }
  .footer_nav  {
@@ -268,7 +277,7 @@ header #gray {
  }
  .footer_nav a {
      text-decoration: none;
-     color: #4a4a4a;
+     color: #D9D9D9;
      padding: 10px;
 
  }
@@ -286,7 +295,9 @@ header #gray {
      }
      .for_mobile {
          display: flex;
-         justify-content: center;
+         justify-content: space-between;
+         padding: 0 40px;
+         margin: 0 auto;
      }
 
      .for_desktop {
