@@ -153,7 +153,7 @@ header #gray {
     text-decoration: none;
     color: #284B63;
 }
-.article_three h3, p {
+.article_three h3 {
     color: #D9D9D9;
 }
 .article_three p {
@@ -347,6 +347,13 @@ header #gray {
      .article_three {
          background-color: inherit;
      }
+     .article_three h3 {
+        color: #353535;
+
+     }
+     .article_three p {
+        color: #353535;
+    }
      .article_img_mobile {
          display: block;
      }
